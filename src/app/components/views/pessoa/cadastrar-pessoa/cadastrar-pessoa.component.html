@@ -1,0 +1,19 @@
+<div>
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" [(ngModel)]="nome" />
+</div>
+<div id="descricao">
+    <label for="descricao">Cpf:</label>
+    <input type="text" name="descricao" [(ngModel)]="cpf" />
+</div>
+<div id="quantidade">
+    <label for="quantidade">Email:</label>
+    <input type="text" name="quantidade" [(ngModel)]="email" />
+</div>
+<div id="preco">
+    <label for="preco">Telefone:</label>
+    <input type="text" name="preco" [(ngModel)]="telefone" />
+</div>
+<div id="botaoCadastrar">
+    <button (click)="create()">Cadastrar</button>
+</div>
